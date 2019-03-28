@@ -2,7 +2,7 @@ import scala.io.Source
 
 class Draw {
 
-  val lines = Source.fromFile("C:\\Users\\ziooo\\Desktop").getLines.toList
-  println(lines)
+  val players = Source.fromFile("C:\\Users\\ziooo\\Desktop\\fifa.txt").mkString
+  players.split(" ").foreach(println)
 
 }
