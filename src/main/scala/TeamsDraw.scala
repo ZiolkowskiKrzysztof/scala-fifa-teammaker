@@ -1,9 +1,5 @@
-class TeamDraw(gk: Int, dfd: Int, mid: Int, st: Int) {
+class TeamsDraw() {
 
-  val numOfGoalkeepers = gk
-  val numOfDefenders = dfd
-  val numOfMidfielders = mid
-  val numOfStrikers = st
   val FULL_TEAM = 18
 
   val team: List[Player] = List()
